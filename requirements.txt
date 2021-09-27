@@ -1,0 +1,6 @@
+requests==2.25.1
+pyrogram
+tgcrypto
+pymongo[srv]
+python-dotenv
+bs4

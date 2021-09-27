@@ -1,0 +1,36 @@
+{
+  "name": "JayBee Subtitle Bot",
+  "description": "Telegram bot to download subtitle for movies and tv shows",
+  "logo" : "https://telegra.ph/file/05bae0725724007c72fa1.jpg",
+  "success_url" : "https://t.me/JayBeeBots",
+  "keywords": [
+    "telegram",
+    "bot",
+    "subtitle",
+    "jaybee"
+  ],
+  "repository": "https://github.com/TerminalWarlord/Subtitle-Downloader-Bot",
+  "website": "https://github.com/TerminalWarlord/Subtitle-Downloader-Bot",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your bot Bot Token, get this value from @BotFather.",
+      "value": ""
+    },
+    "API_KEY": {
+      "description": "Your APP API KEY, get this from https://my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Your APP HASH, get this from https://my.telegram.org",
+     "value": ""
+    },
+    "CUTTLY_API": {
+      "description": "Create an account on https://cutt.ly/register and generate an API KEY",
+      "value": ""
+    },
+    "WORKERS": {
+      "description": "Number of threads to use, this depends on usage.  4 is the recommended (and default) amount, but your experience may vary.",
+      "value": "4"
+    }
+  }
+}
